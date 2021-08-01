@@ -33,11 +33,13 @@ public class RemoveDuplicates {
                 nums[i] = nums[j];
             }
         }
+
         return i + 1;
 
     }
 
     public static void main(String[] args) {
-        System.out.println(RemoveDuplicates.removeDuplicates(new int[]{1,2,2,3,3}));
+        System.out.println(RemoveDuplicates.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+
     }
 }
