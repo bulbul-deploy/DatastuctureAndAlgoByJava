@@ -11,9 +11,9 @@ public class TimeComplexityDemo {
         System.out.println("Time taken -"+(System.currentTimeMillis() - now) + "ms");
     }
 
-//    public int findSum(int n){
-//        return n* (n+1)/2;
-//    }
+/*    public int findSum(int n){
+        return n* (n+1)/2;
+    }*/
 
     public int findSum(int n){
         int sum=0;
